@@ -5,20 +5,31 @@
 	<style>
 		p {color: blue; font-size: 20px; width: all;}
 		h1{color: green; font-size: 60px; text-align: center;}
+		#alex{color: unset;font-size: 30px;opacity: .7;}
+		.pop {background: green;}
+		p.pop {font-style: italic;}
+		h1.pop {background: blue;}
+		.rok.pop {color: red;background-color: black;}
+		div > p {color: purple;}
 	</style>
 </head>
 <body>
 	<h1>HTML is Structure Only</h1>
 	<p style="margin: 0 100px 0 100px; font-size: 1.5em;"> hôm nay trời thật là đẹp <br>tôi muốn có một chuyến đi dã ngoại thật vui vẻ.</p>
 	<p> hôm nay trời thật là đẹp tôi muốn có một chuyến đi dã ngoại thật vui vẻ.</p>
-	<div style="front-size:20px; color:red">
+	<div>
 	<p> dinh nghia the div la gi </p>
 	<p> tac dung cua the div trong HTML </p>
 	<p> phan biet su khac nhau giua the span va the div </p>
 	</div>
+	<h1 class="pop">Sau đó, bạn tìm thấy hello.cpp, nhấp vào nút "xem tệp". Và cuối cùng bạn chỉ thấy sự khác biệt của
+cam kết này - cam kết cuối cùng.</h1>
+	<p class="pop">Bạn truy cập bất kỳ tệp nào, giả sử hello.cpp trên Github, nhấp vào nút "lịch sử", sau đó bạn có thể thấy các cam kết thay đổi tệp này. </p>
+	<p class="pop rok">Sau đó, bằng cách nhấp vào nút "sha" của mỗi cam kết, bạn sẽ thấy toàn bộ cam kết.</p>
 	<footer>
 		<hr>
 		<p style="text-align: center;" onclick="alert('say hi');"> tech &rarr; support: toanalex22@gmail.com</p>
+		<div> Thử nghiệm xem có đúng k ta <span id="alex">id="alex".</span></div>
 	</footer>
 </body>
 </html>
